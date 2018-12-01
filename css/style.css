@@ -1,0 +1,132 @@
+.wrapper{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.header{
+	background: #99739e;
+	height: 37px;
+	font-size: 18px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.header p{
+	padding-left: 15px;
+}
+.most-main{
+	background: url(../img/most_main.png);
+	height: 731px;
+}
+.form{
+	background: url(../img/form.png);
+	height: 238px;
+	position: relative;
+	top: 100px;
+	padding-left: 372px;
+}
+.form h1{
+	color: #dcdf98;
+	font-size: 60px;
+	position: relative;
+    top: 10px;
+}
+.form p{
+	color: #dcdf98;
+	font-size: 14px;
+	padding-top: 8px;
+}
+.inp-name{
+	width: 126px;
+}
+.input-container{
+  display: flex;
+}
+.name-conteiner{
+  width: 126px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  width: 106px;
+  height: 32px;
+  background: transparent;
+  color: #d5dc99;
+  outline: none;
+  border: 1px solid #cdd47b;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.name:hover, .name:focus {
+  border: 10px solid #cdd47b;
+  border-radius: 15px;
+}
+.mail-conteiner{
+  margin: 0 5px;
+  width: 165px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail{
+  width: 145px;
+  height: 32px;
+  background: transparent;
+  color: #d5dc99;
+  outline: none;
+  border: 1px solid #cdd47b;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.mail:hover, .mail:focus {
+  border: 10px solid #cdd47b;
+  border-radius: 15px;
+}
+.phone-conteiner{
+  width: 132px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone{
+  width: 112px;
+  height: 32px;
+  background: transparent;
+  color: #d5dc99;
+  outline: none;
+  border: 1px solid #cdd47b;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.phone:hover, .phone:focus {
+  border: 10px solid #cdd47b;
+  border-radius: 15px;
+}
+.button-conteiner{
+  width: 175px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  width: 155px;
+  height: 32px;
+  color: #f7f7f0;
+  border-radius: 5px;
+  background: #58a856;
+  border: transparent;
+  outline: none;
+}
+.button:active {
+  background: #1a3219;
+}
+
+input::-webkit-input-placeholder {
+    color: #d5dc99;
+} 
+input::-moz-placeholder {
+	color: #d5dc99;
+}
