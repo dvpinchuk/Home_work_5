@@ -38,7 +38,8 @@
 	width: 126px;
 }
 .input-container{
-  display: flex;
+	margin-top: 32px;
+  	display: flex;
 }
 .name-conteiner{
   width: 126px;
